@@ -57,7 +57,6 @@ body {
   flex-direction: column;
   background: #fff;
   flex-shrink: 0;
-  height: 100%;
 }
 
 .list-header {

@@ -1,290 +1,257 @@
 lists:
   - name: Tuin
+    group: Tuin
+    items:
+      - label: Terrasstegels ophogen
+        description: In de tuin zijn er een aantal terrasstegels verzakt deze moeten weer op hoogte worden gebracht.
+      - label: Grindpad vervangen door leempad
+        description: Het grindpad vervangen voor een leempad zodat het makkelijker is om er overheen te lopen.
+      - label: Witte stenen oprit leggen
+        description: Op de oprit wil ik graag witte stenen leggen.
+      - label: Klimop palen oprit plaatsen
+        description: Op de oprit wil ik graag horizontale en verticale hardhouten palen waarmee ik klimop kan laten groeien.
+      - label: Douglas palen voortuin plaatsen
+        description: In de voortuin wil ik een aantal douglas palen plaatsen.
+      - label: Vlaggenmast voortuin plaatsen
+        description: Een vlaggenmast plaatsen in de voortuin.
+      - label: Leibomen constructie achtertuin
+        description: Leibomen constructie en bomen plaatsen in de achtertuin.
+      - label: Schommel tuin plaatsen
+        description: Een schommel plaatsen in de tuin.
+      - label: Hangmat ophangen in tuin
+        description: De hangmat ophangen in de tuin zodat ik er lekker in kan liggen.
+      - label: Grasmaaier huisje bouwen
+        description: De grasmaaier in de tuin een huisje geven zodat hij droog staat en niet in de weg ligt.
+      - label: Schaduwdoek zijtuin plaatsen
+        description: In de zijtuin een schaduwdoek plaatsen zodat het daar in de zomer koeler is.
+      - label: Sfeerverlichting tuin
+        description: In de tuin verlichting maken zodat er meer sfeer is.
+      - label: Lamp achterkant tuin repareren
+        description: De lamp in de achterkant van de tuin lampen geven zodat hij weer aangaat.
+      - label: Deurhaken tuindeuren boren
+        description: De haken in de deur boren van de tuin zodat ze open kunnen blijven staan.
+      - label: Insectenhotel kopen en installeren
+        description: Een insectenhotel kopen en installeren.
+      - label: Vogelhuisje aansluiten op homeassistant
+        description: Het vogelhuisje in de achtertuin moet weer aangesloten worden via home assistant zodat ik de fotos te zien krijg.
+      - label: Tuinbesproeiing weer aanzetten
+        description: Water besproeiing weer aanzetten in de tuin zodat de planten water krijgen.
+      - label: Poort opnieuw verven
+        description: De poort opnieuw verven want het lak gaat er af.
+  - name: Grote tuin klussen
+    group: Tuin
+    items:
+      - label: Aluminium overkapping tuin bouwen
+        description: Aluminium overkapping maken in de tuin zodat ik er ook bij slecht weer kan zitten.
+      - label: Kattenluik schuur met eten en drinken
+        description: Kattenluik in de schuur maken met eten en drinken.
+  - name: Onderhoud binnen
     group: Klussen
     items:
-      - label: Verzakking tuin stenen
-      - label: Vogelhuisje
-      - label: Bakje voortuin
-      - label: Douglas palen voortuin
-      - label: Robot huisje
-      - label: Markies
-      - label: Vlaggenmast
-      - label: Schommel
-      - label: Leibomen
-      - label: Leempad
-      - label: Oprit witte stenen
-      - label: Foto planten
-      - label: Schaduwdoek
-      - label: Suneclipse
-      - label: Deur melle bestellen
-      - label: Gaten maken
-      - label: Poort
-      - label: Harmonicadoek
-      - label: Speelkast
-      - label: Fietskast
-      - label: Automatische verlichting
-      - label: Lamp achterkant
-      - label: Deurhaken
-      - label: Insectenhotel
-      - label: Grote mat (hamat may)
-  - name: Binnen
-    group: Klussen
-    items:
-      - label: Door huis lopen
-      - label: Reserve wieltjes argenta
-      - label: Trap kitten
-      - label: Plintje werkkamer
-      - label: Schommel rubber voorkamer
-      - label: Gordijnrails
+      - label: Rolgordijnen rails opnieuw vastkitten
+        description: De rolgordijnen rails laten op bepaalde plekken los. Deze weer vast kitten.
+      - label: Plinten werkkamer herstellen
+        description: In de werkkamer zijn de plinten beschadigd en sommige ontbreken.
+      - label: Schommel rubber voorkamer vervangen
+        description: De schommel in de voorkamer heeft rubbertjes die loslaten.
       - label: Gaten vullen
-      - label: Zolder latjes
-      - label: Plintjes
-      - label: Oplaad tafel
-      - label: Netwerk kast
-      - label: Dremel in werkbank
-      - label: Schuur
-      - label: Schakelaar
-      - label: Mos groen
-      - label: Afstellen philips hue
-      - label: Afstellen zonnescherm
-      - label: Gaten knieschot
-      - label: Planten
-      - label: Zolder opruimen
-      - label: Schoonmaken verf buitenkant
-      - label: Tapijt plakken
-      - label: Planten voorkamer
+      - label: Plafond zolder herstellen
+        description: Op zolder moet het plafond hersteld worden.
+      - label: Badkamer knieschot openen voor opslag
+        description: De badkamer knieschot openmaken zodat ik er spulletjes in kan stoppen.
+      - label: Reserve wieltjes argenta gordijnrails bestellen
+        description: Reserve wieltjes voor de argenta gordijnrails bestellen zodat ik ze kan vervangen als ze kapot zijn.
+      - label: Schuur opruimen
+        description: De schuur opruimen zodat er meer ruimte is en het er weer netjes uitziet.
+      - label: Automatische gordijnrails ophangen
+        description: Automatische gordijnrails kopen en ophangen.
+      - label: Zonwering met zuignap ramen
+        description: Zonwering met zuignap voor ramen plaatsen in de zomer.
+      - label: Mos schilderij kopen
+        description: Idee is om een schilderij van mos te kopen.
+      - label: Trap opnieuw kitten
+        description: De trap opnieuw kitten.
   - name: Verbouwen
     group: Klussen
     items:
-      - label: Naamplaat
-      - label: Trap verven
-      - label: Papgaaienstoel verven
-      - label: Verven woonkamer
-      - label: Tegeltjes keuken
-      - label: Plaatje
-      - label: Schiereiland
-      - label: Kunstuitleen
-      - label: Naambord
-      - label: Schapjes
-      - label: Kookeiland met tafel
-      - label: Tv bed
-      - label: Accoustisch schilderij
-      - label: Vloerkleed keuken
-  - name: Kinderkamers
-    group: Klussen
-    items:
-      - label: Kinderkamer leuk maken
-      - label: Fotolijstjes
-      - label: Tafel bureau
-      - label: Makeup tafel
-      - label: Zijprofiel licht kinderkamer
+      - label: Naamplaat bij voordeur plaatsen
+        description: Naamplaat bij de voordeur plaatsen zodat mensen weten dat ze bij mij zijn.
+      - label: Muren woonkamer verven
+        description: Muren in de woonkamer verven zodat het er frisser uitziet.
+      - label: Tegels keuken plaatsen
+        description: In de keuken tegeltjes plaatsen zodat het er mooier uitziet en makkelijker schoon te maken is.
+      - label: Keuken schiereiland maken
+        description: Schiereiland maken in de keuken. Je kunt online stalen bartafelframes kopen.
+      - label: Vloerkleed keuken leggen
+        description: In de keuken een vloerkleed leggen.
+      - label: Fotolijstjes aan wand hangen
+        description: Een fotolijstjes aan de wand hangen zodat het er gezelliger uitziet.
+      - label: Planten woonkamer en keuken
+        description: In de woonkamer en keuken planten plaatsen zodat het er gezelliger uitziet.
+      - label: Extra verlichting woonkamer keuken werkkamer
+        description: Meer verlichting in woonkamer keuken en werkkamer.
+      - label: Deur kamer Melle bestellen
+        description: Voor Melle kamer een deur bestellen zodat je een extra kamer van kan maken.
   - name: Grote klussen
     group: Klussen
     items:
-      - label: Vliering
-      - label: Overkapping
-      - label: Splitten kamer melle
-      - label: Roomdivider
-  - name: Home automation
-    group: Klussen
+      - label: Vliering maken op zolder
+        description: Vliering maken op zolder.
+      - label: Roomdivider muren verven
+        description: Roomdivider muren verven.
+      - label: Roomdivider kasten maken
+        description: Roomdivider kasten maken.
+      - label: Roomdivider ramen glas in lood bestellen
+        description: Roomdivider ramen bestellen glas in lood.
+      - label: Schakelaar en verlichting badkamer aanleggen
+        description: Schakelaar en verlichting badkamer maken.
+  - name: Netwerk & infra
+    group: Techniek
     items:
-      - label: Buitenlampen
-      - label: Schakelaars
-      - label: Extra lichten
-      - label: TV Ophangen
-      - label: Dakboard instellen
-      - label: Extra tiles
-      - label: Opladen gordijnen accu
-      - label: Alex setup
-      - label: Katten maximaal eten
-      - label: Katten maximaal
-      - label: Find my iphone
-      - label: Buitenlampen in ha
-      - label: Zonnescherm
-      - label: Lock mac mini
-      - label: Roomba
-      - label: Scripts verlichting fix
-      - label: Lux
-      - label: Geen wekker
-      - label: Afvalwijzer
-      - label: Alle lampen aan/uit
-      - label: Alarm systeem
-      - label: Melle motion
-      - label: Fotos
+      - label: Netwerkkabels aanleggen in kabelgoten
+        description: Op diverse plaatsen zijn er geen netwerkkabels in de kabelgoten.
+      - label: Netwerk switch bij bureau werkkamer
+        description: Alle devices in de werkkamer een netwerkstekker geven.
+      - label: Beveiligingscamera systeem met Raspberry Pi
+        description: Video camera systeem installeren in en rondom het huis. Een raspberry pi met motioneye os installeren zodat ik het systeem zelf kan beheren.
+      - label: Sonos opnieuw ophangen werkkamer
+        description: Sonos devices opnieuw ophangen in de werkkamer.
+      - label: Nintendo Switch met Logitech muziekbox werkkamer
+        description: Nintendo switch installeren werkkamer met een muziek box van logitech zodat je ze kan horen.
+      - label: Fotos lokaal hosten zonder icloud
+        description: Alle fotos lokaal hosten zodat ik geen icloud subscription meer nodig heb.
+  - name: Home Assistant
+    group: Techniek
+    items:
+      - label: Stroomverbruik meten via homeassistant
+        description: De stroommeters aansluiten in homeassistant en dan bekijken wat het verbruik is van de apparaten in huis.
+      - label: Buitenverlichting automatiseren op lux en tijd
+        description: In homeassistant de buitenverlichting tijden instellen zodat ze automatisch aan en uit gaan, ook op basis van de lux sensor.
+      - label: Lux sensoren gordijnen vervangen
+        description: De lux sensoren in de gordijnen nieuw bestellen. De huidige zijn niet goed genoeg.
+      - label: Lux meter met hoger bereik bestellen
+        description: Nieuwe lux meter bestellen en kopen die een hoger bereik aankan.
+      - label: Homeassistant notificaties instellen
+        description: Notificaties instellen in homeassistant zodat ik weet wanneer er iets gebeurt in huis.
+      - label: Bewegingsalarm bij afwezigheid
+        description: In homeassistant een alarm krijgen als ik weg ben en er beweging is in huis.
+      - label: Bewegingsalarm tijdens slapen begane grond
+        description: In homeassistant als ik slaap en er is beweging op de begane grond.
+      - label: Deuren automatisch op slot bij vertrek
+        description: Als ik wegga direct de deuren op slot doen.
+      - label: Notificatie bij verlaten homeassistant zone
+        description: Notificatie wanneer ik weg ben bij homeassistant zone.
+      - label: Roomba integreren in homeassistant
+        description: In homeassistant roomba robots integreren zodat ze afgaan wanneer ik de woning verlaat.
+      - label: Alexa devices instellen
+        description: Alexa devices verder instellen.
+      - label: Homeassistant voice control via Alexa
+        description: Met Alexa instellen dat ik home assistant voice control kan gebruiken.
+      - label: Kattenvoer schema homeassistant
+        description: In homeassistant een schema maken voor katten maximaal eten zodat ik weet wanneer ik ze eten moet geven.
+      - label: Kattenlokatie in homeassistant bijhouden
+        description: In homeassistant configureren dat ik de locatie van de katten kan zien.
+      - label: Roblox blokkeren via homeassistant
+        description: In homeassistant instellen dat ik roblox kan killen.
+      - label: Wekker uitschakelen via homeassistant
+        description: In homeassistant de mogelijkheid om geen wekker te zetten zodat ik niet wakker word van een wekker.
+      - label: Gordijnen automatisering homeassistant verbeteren
+        description: In homeassistant lijkt het alsof sommige gordijnen niet goed open en dicht gaan.
+      - label: Extra accupakket gordijnen
+        description: Een extra accupakket voor de gordijnen zodat ik ze vaker kan gebruiken zonder dat ik ze steeds op hoef te laden.
+      - label: Lichten woonkamer en hal combineren
+        description: In homeassistant de lichten in de woonkamer en hal combineren zodat ze samen aan en uit kunnen.
+      - label: Lampen automatisch aan bij thuiskomst
+        description: Als ik aankom dan de lampen aanzetten als er niemand thuis is en de lux is goed.
+      - label: Woningafsluiting schakelaars homeassistant verbeteren
+        description: De schakelaars in homeassistant beter instellen. Bv afsluiten van de woning op een andere plek.
+      - label: Slaapkamer lamp uit bij woning afsluiten
+        description: Bij het afsluiten van de woning ging de slaapkamer lamp niet uit.
+      - label: Camera motion stand voorkomen bij away klik
+        description: Als je binnenkomt en met homeassistant toevallig op away klikt gaan de cameras in huis in motion stand.
+      - label: Aanrechtlamp niet aan bij thuiskomst oplossen
+        description: Soms gaat de aanrechtlamp niet aan als ik binnen kom van homeassistant.
+      - label: Snooze zonder geluid via Alexa
+        description: Bij het snoozen niet via alexa een geluid maken dat je snoozed.
+      - label: Spotify playlist aanmaken voor homeassistant
+        description: Een custom playlist in spotify aanmaken die ik in homeassistant aan kan zetten.
+      - label: Homeassistant errors oplossen
+        description: De errors in homeassistant nalopen en oplossen. Soms home assistant sonos unjoin failure.
+      - label: Planten met sensoren bewaken
+        description: Meer planten kopen en ze een sensor geven.
+  - name: Displays & monitoring
+    group: Techniek
+    items:
+      - label: Homeassistant monitor werkkamer ophangen
+        description: In de werkkamer een monitor ophangen om homeassistant te kunnen bekijken.
+      - label: Homeassistant display ophangen werkkamer
+        description: In de werkkamer een monitor ophangen om homeassistant te kunnen bekijken.
+      - label: Dakboard instellen werkkamer
+        description: In de werkkamer dakboard instellen.
       - label: Abonnementen
-      - label: Switch bij bureau
-      - label: Sonos ophangen
-      - label: Domein naam
-      - label: Wake on lan
-      - label: IPTV
-      - label: Fotos mac mini
-      - label: Automatisch inschrijven
-      - label: Router speed
-      - label: Plexiglas 3d printer
-      - label: Nixplay automatisch fotos
-      - label: Do not disturb configureren
-      - label: Automatisch deuren op slot
-      - label: Tablet displays ophangen voor inzicht
-      - label: Stroommeter inlezen
-      - label: Zonnepanelen inlezen
-      - label: Spellen computer instellen
-      - label: Wifi connecten zehnder
-      - label: Talkiepi maken
-      - label: Planten monitor
-      - label: Koe tuin
-      - label: Rugzak licht
-      - label: Lampen
-      - label: Aankomst verlaten script
-      - label: Planten sensor
-      - label: iRobot default action
-      - label: Verlichting begane grond
-      - label: Sync button
-      - label: Vakantie
-      - label: Uitslapen
-      - label: Laatste beweging
-      - label: Aankomst woning enable script
-      - label: Aankomst lichten
-      - label: Cito oefen boeken
-      - label: Badkamer verlichting
-      - label: Melle schakelaar
-      - label: Licht uit slapen
-      - label: Meerdere motions
-      - label: Muziek switch
-      - label: Meerdere zones
-      - label: Wekker lampen verlaat
-      - label: Lichten combineren woonkamer hal
-      - label: Meer licht
-      - label: Muziek ochtend
-      - label: Scripts dashboard
-      - label: Dashboard mobile
-      - label: Dashboard helpers
-      - label: Gira schakelaar
-      - label: Ha backup
-      - label: Unjoin Sonos fail
-      - label: Deur Melle
-  - name: Low Prio
-    group: Klussen
-    items:
-      - label: Anita sleutel
-      - label: Poster baby/kinder fotos
-      - label: Psycholoog filmpjes
-      - label: Piano
-  - name: Kennis
-    group: Werk
-    items:
-      - label: Kotlin coroutines
-      - label: Kurtzgezagt
+        description: Abonnementen overzicht bijhouden.
   - name: Certificaten
     group: Werk
     items:
-      - label: Gen ai aws
-      - label: Ckad
-      - label: .NET
-      - label: Architectuur
-      - label: Jetbrains
-      - label: Congruent data streaming
-      - label: OU certificaten
-      - label: Certified Platform Engineering Practitioner
-      - label: Google Generative AI Leader
-      - label: Databricks GenAI Engineer Associate
-      - label: AI Training
-      - label: Funle
-      - label: Togaf
-      - label: Databricks
-      - label: Cloud Digital Leader
+      - label: AWS Generative AI certificering
+        description: Certificering doen.
+      - label: Confluent data streaming certificering
+        description: Certificering doen.
+      - label: Certified Platform Engineering Practitioner certificering
+        description: Certificering doen.
+      - label: Google Generative AI Leader certificering
+        description: Certificering doen.
+      - label: Databricks GenAI Engineer Associate certificering
+        description: Certificering doen.
+      - label: TOGAF certificering
+        description: Certificering doen.
+      - label: Google Cloud Digital Leader certificering
+        description: Certificering doen.
   - name: Bedrijf
     group: Werk
     items:
-      - label: Freelance.nl
-      - label: Springest
-      - label: CV
-      - label: Bitcoin
-      - label: Subsidie AI
-      - label: Orange quarter
-  - name: Emma / Melle
+      - label: Freelance.nl abonnement afsluiten
+        description: Handige website voor vinden van freelanceklussen. Abonnement afsluiten.
+      - label: Springest abonnement afsluiten
+        description: Handige website voor vinden van trainingen. Abonnement afsluiten.
+      - label: WBSO subsidie aanvragen voor AI projecten
+        description: WBSO aanvragen bij de belastingdienst voor mijn AI projecten. Voorkomt schijnzelfstandigheid.
+      - label: Orange Quarter inschrijven voor klussen
+        description: Handig voor vinden nieuwe klussen.
+      - label: Zakelijk horloge aanschaffen
+        description: Horloge kopen op de zaak.
+      - label: Extra zakelijke uitgaven benutten
+        description: Kijken of ik extra zakelijke uitgaven kan hebben. Dat drukt de winst dit jaar. Voordelig.
+  - name: Kennis
+    group: Werk
     items:
-      - label: Blind typen emma
-      - label: Taal boekjes emma
-      - label: Atletiek
-      - label: Rt remedial teaching
+      - label: Kotlin coroutines bestuderen
+        description: Meer inlezen in kotlin coroutines zodat ik ze beter kan gebruiken in mijn projecten.
+      - label: Kurzgesagt filmpjes kijken met kinderen
+        description: Af en toe met Emma en Melle kijken naar Kurzgesagt filmpjes over wetenschap en geschiedenis.
+      - label: Interessante meetups vinden
+        description: Op zoek naar interessante meetups.
+  - name: Financieel
+    group: Persoonlijk
+    items:
+      - label: Vakantie betalen
+        description: Vakantie betalen.
+      - label: Geld terugvragen bij Renske voor typeles
+        description: Typeles van Emma en Melle terugbetalen.
+      - label: Online testament opstellen
+        description: Testament online maken zodat het geregeld is voor als er iets gebeurt.
   - name: Overig
+    group: Persoonlijk
     items:
-      - label: Socio overzicht
-      - label: Bieb nieuwegein
-  - name: import-automation fixes
-    group: import
-    items:
-      - label: aankomst verlaten script
-      - label: Planten sensor
-      - label: iRobot default action
-      - label: Verlichting begane grond
-      - label: Sync button
-      - label: Vakantie
-      - label: Uitslapen
-      - label: Laatste beweging
-      - label: Aankomst woning enable script
-      - label: Aankomst lichten
-      - label: Cito oefen boeken
-      - label: Badkamer verlichting
-      - label: Melle schakelaar
-      - label: Licht uit slapen
-      - label: Meerdere motions
-      - label: Muziek switch
-      - label: Meerdere zones
-      - label: Wekker lampen verlaat
-      - label: Lichten combineren woonkamer hal
-      - label: Meer licht
-      - label: Muziek ochtend
-      - label: Scripts dashboard
-      - label: Dashboard mobile
-      - label: Dashboard helpers
-      - label: Gira schakelaar
-      - label: ha backip
-      - label: Unjoin Sonos fail
-      - label: Deur Melle
-  - name: import-home assistant
-    group: import
-    items:
-      - label: Notification
-      - label: Snooze geluid
-      - label: Woning afsluiten slaapkamer lamp niet uit
-      - label: Mis klik werkkamer is away
-      - label: Notify wanneer niet gelukt
-      - label: Altijd lock
-      - label: Notify weg
-      - label: https://nl.aliexpress.com/item/1005007470395637.html?_randl_currency=EUR&_randl_shipto=NL&src=google&pdp_npi=4%40dis!EUR!24.71!17.89!!!!!%40!12000043415097239!ppc!!!&exp_tag=gcp&src=google&albch=shopping&acnt=248-630-5778&isdl=y&slnk=&plac=&mtctp=&albbt=G
-      - label: Lux meter
-      - label: Motion state 14:36 nit aan plafond
-      - label: Playlist custom
-      - label: Waarom Sonos uit vanochtend
-      - label: Auto lock
-      - label: gordijnen doen het niet goed
-      - label: Geen radio ochtend aankomst
-      - label: Gordijnen
-      - label: Killen Roblox
-      - label: Lock altijd
-      - label: Stand 7
-      - label: Alle lampen ongewijzigd Motion watching
-      - label: Volume reset on 5 uur
-      - label: Volume
-      - label: Woonkamer 2 reset
-      - label: Kinderen licht
-  - name: import-Low prio
-    group: import
-    items:
-      - label: https://www.kaldenbach-meubels.nl/products/stalen-bartafelframe-met-voetplaat-voetensteun?variant=45640465056054&country=NL&currency=EUR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid
-      - label: Muziek box
-      - label: Shelly
-      - label: Kattenluik
-      - label: Chrome book
-      - label: USB car splitter
-      - label: Infotainment
-      - label: Dash cam
-      - label: Bomen
-      - label: Testament online
-      - label: Verf beschadiging
-      - label: Thoughtworks
-      - label: meetup
-      - label: Oplader MacBook
-      - label: NS Kortingskaart
-      - label: Horloge
+      - label: Huissleutel terugvragen bij Anita
+        description: Anita heeft nog huissleutel. Deze terugvragen.
+      - label: Poster kinderfoto's voor werkkamer
+        description: Nieuwe posters voor op de werkkamer maken met baby/kinderfoto's.
+      - label: Fotoboek Melle maken
+        description: Fotoboek maken van Melles leven.
+      - label: Emma Chromebook zonder Google account instellen
+        description: Emma chromebook zonder google account kunnen gebruiken zodat er geen tijdslimit op zit.
+      - label: USB splitter auto met Apple CarPlay
+        description: In de auto een usb car splitter maken zodat ik meerdere apparaten tegelijk kan opladen maar wel met apple car play.
+      - label: Dashcam installeren in auto
+        description: Dashboard camera installeren in de auto zodat ik kan zien wat er gebeurt als ik niet in de auto ben.

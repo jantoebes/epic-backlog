@@ -37,6 +37,7 @@ const buildRowItems = (lists) =>
 
 export default function TodoBoard() {
   const { lists, reorderItem, moveItem } = useBoard();
+  const { rowCount } = useSettings();
   const [activeItem, setActiveItem] = useState(null);
 
   const sensors = useSensors(
@@ -84,10 +85,17 @@ export default function TodoBoard() {
       onDragEnd={handleDragEnd}
     >
       <div id="app">
-        <div className="board-row">
+        <div
+          className="board-row"
+          style={rowCount > 1 ? { flexWrap: "wrap", alignContent: "flex-start", overflowY: "auto", overflowX: "auto" } : {}}
+        >
           {items.map((entry) =>
             entry.type === "divider" ? (
-              <div key={entry.key} className="board-group-divider">
+              <div
+                key={entry.key}
+                className="board-group-divider"
+                style={rowCount > 1 ? { height: `${100 / rowCount}%` } : {}}
+              >
                 <span>{entry.name}</span>
               </div>
             ) : (
@@ -96,6 +104,7 @@ export default function TodoBoard() {
                 list={entry.list}
                 isFirst={false}
                 isLast={false}
+                rowCount={rowCount}
               />
             )
           )}

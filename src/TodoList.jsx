@@ -68,16 +68,17 @@ const GroupDropdown = ({ list, onClose }) => {
   );
 };
 
-export default function TodoList({ list, isFirst, isLast }) {
+export default function TodoList({ list, isFirst, isLast, rowCount = 1 }) {
   const { columnWidth } = useSettings();
   const { moveList } = useBoard();
   const { setNodeRef } = useDroppable({ id: list.id });
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const itemIds = list.items.map((i) => i.id);
+  const heightStyle = rowCount > 1 ? { height: `${100 / rowCount}vh` } : { height: "100%" };
 
   return (
-    <div className="list" style={{ minWidth: columnWidth, maxWidth: columnWidth }}>
+    <div className="list" style={{ minWidth: columnWidth, maxWidth: columnWidth, ...heightStyle }}>
       <div className="list-header" style={{ background: list.color }}>
         {!isFirst && (
           <button className="list-move-btn" onClick={() => moveList(list.id, "left")}>◀</button>
