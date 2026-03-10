@@ -1,0 +1,29 @@
+# Schema for board.yaml
+$schema: "http://json-schema.org/draft-07/schema#"
+type: object
+required:
+  - lists
+properties:
+  lists:
+    type: array
+    items:
+      type: object
+      required:
+        - name
+        - items
+      properties:
+        name:
+          type: string
+        group:
+          type: string
+        items:
+          type: array
+          items:
+            type: object
+            required:
+              - label
+            properties:
+              label:
+                type: string
+              description:
+                type: string

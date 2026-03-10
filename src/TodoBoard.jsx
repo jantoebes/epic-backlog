@@ -21,11 +21,15 @@ const findItem = (lists, id) => {
   return null;
 };
 
+const UNGROUPED = "Ungrouped";
+
 const buildRowItems = (lists) =>
   lists.reduce((acc, list, i) => {
     const prev = lists[i - 1];
-    if (list.group && list.group !== prev?.group) {
-      acc.push({ type: "divider", name: list.group, key: `divider-${i}` });
+    const group = list.group || UNGROUPED;
+    const prevGroup = prev?.group || (prev ? UNGROUPED : null);
+    if (group.toLowerCase() !== prevGroup?.toLowerCase()) {
+      acc.push({ type: "divider", name: group, key: `divider-${i}` });
     }
     acc.push({ type: "list", list });
     return acc;

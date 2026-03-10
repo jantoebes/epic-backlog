@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
 import { fileURLToPath } from "url";
-import { generateLists, COLORS } from "./src/data.js";
+import { COLORS } from "./src/data.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const YAML_PATH = path.join(__dirname, "board.yaml");
@@ -39,9 +39,8 @@ const writeBoard = (lists) =>
   fs.writeFileSync(YAML_PATH, yaml.dump({ lists: stripIds(lists) }, { lineWidth: -1 }), "utf8");
 
 const initBoard = () => {
-  const lists = generateLists(40, 50);
-  writeBoard(lists);
-  return { lists };
+  writeBoard([]);
+  return { lists: [] };
 };
 
 const app = express();

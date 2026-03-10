@@ -1,628 +1,4 @@
 lists:
-  - name: Backlog
-    group: Planning
-    items:
-      - label: Update documentatie
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Review pull request
-      - label: Fix login bug
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Deploy naar staging
-      - label: Database migratie
-        description: Needs sign-off from design before implementation can start.
-      - label: API endpoint toevoegen
-      - label: Unit tests schrijven
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Code review doen
-      - label: Design mock-up maken
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Klant bellen
-      - label: Sprint planning
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Retrospective voorbereiden
-      - label: Dependencies updaten
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Security audit
-      - label: Performance optimalisatie
-        description: Can be paired with the refactor task to save time.
-      - label: Error logging instellen
-      - label: Backup configureren
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: SSL certificaat vernieuwen
-      - label: Load balancer instellen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Cache legen
-      - label: Rapport genereren
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Email beantwoorden
-      - label: Meeting voorbereiden
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Factuur versturen
-      - label: Budget bijwerken
-        description: Needs sign-off from design before implementation can start.
-      - label: Offerte maken
-      - label: Contract opstellen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Onboarding document
-      - label: Test omgeving opzetten
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: CI/CD pipeline fixen
-      - label: Docker image bouwen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Kubernetes config
-      - label: Monitoring instellen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Alert regels toevoegen
-      - label: Dashboard maken
-        description: Can be paired with the refactor task to save time.
-      - label: Data exporteren
-      - label: Import script schrijven
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Validatie toevoegen
-      - label: Formulier bouwen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Navigatie aanpassen
-      - label: Zoekfunctie bouwen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Filter logica
-      - label: Sortering implementeren
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Paginering toevoegen
-      - label: Responsive maken
-        description: Needs sign-off from design before implementation can start.
-      - label: Accessibility check
-      - label: SEO optimalisatie
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Analytics instellen
-      - label: A/B test opzetten
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Feedback verwerken
-  - name: Sprint 1
-    group: Planning
-    items:
-      - label: Update documentatie
-      - label: Review pull request
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Fix login bug
-      - label: Deploy naar staging
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Database migratie
-      - label: API endpoint toevoegen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Unit tests schrijven
-      - label: Code review doen
-        description: Can be paired with the refactor task to save time.
-      - label: Design mock-up maken
-      - label: Klant bellen
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Sprint planning
-      - label: Retrospective voorbereiden
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Dependencies updaten
-      - label: Security audit
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Performance optimalisatie
-      - label: Error logging instellen
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Backup configureren
-      - label: SSL certificaat vernieuwen
-        description: Needs sign-off from design before implementation can start.
-      - label: Load balancer instellen
-      - label: Cache legen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Rapport genereren
-      - label: Email beantwoorden
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Meeting voorbereiden
-      - label: Factuur versturen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Budget bijwerken
-      - label: Offerte maken
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Contract opstellen
-      - label: Onboarding document
-        description: Can be paired with the refactor task to save time.
-      - label: Test omgeving opzetten
-      - label: CI/CD pipeline fixen
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Docker image bouwen
-      - label: Kubernetes config
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Monitoring instellen
-      - label: Alert regels toevoegen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Dashboard maken
-      - label: Data exporteren
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Import script schrijven
-      - label: Validatie toevoegen
-        description: Needs sign-off from design before implementation can start.
-      - label: Formulier bouwen
-      - label: Navigatie aanpassen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Zoekfunctie bouwen
-      - label: Filter logica
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Sortering implementeren
-      - label: Paginering toevoegen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Responsive maken
-      - label: Accessibility check
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: SEO optimalisatie
-      - label: Analytics instellen
-        description: Can be paired with the refactor task to save time.
-      - label: A/B test opzetten
-      - label: Feedback verwerken
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-  - name: Sprint 2
-    group: Planning
-    items:
-      - label: Update documentatie
-        description: Can be paired with the refactor task to save time.
-      - label: Review pull request
-      - label: Fix login bug
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Deploy naar staging
-      - label: Database migratie
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: API endpoint toevoegen
-      - label: Unit tests schrijven
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Code review doen
-      - label: Design mock-up maken
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Klant bellen
-      - label: Sprint planning
-        description: Needs sign-off from design before implementation can start.
-      - label: Retrospective voorbereiden
-      - label: Dependencies updaten
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Security audit
-      - label: Performance optimalisatie
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Error logging instellen
-      - label: Backup configureren
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: SSL certificaat vernieuwen
-      - label: Load balancer instellen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Cache legen
-      - label: Rapport genereren
-        description: Can be paired with the refactor task to save time.
-      - label: Email beantwoorden
-      - label: Meeting voorbereiden
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Factuur versturen
-      - label: Budget bijwerken
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Offerte maken
-      - label: Contract opstellen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Onboarding document
-      - label: Test omgeving opzetten
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: CI/CD pipeline fixen
-      - label: Docker image bouwen
-        description: Needs sign-off from design before implementation can start.
-      - label: Kubernetes config
-      - label: Monitoring instellen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Alert regels toevoegen
-      - label: Dashboard maken
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Data exporteren
-      - label: Import script schrijven
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Validatie toevoegen
-      - label: Formulier bouwen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Navigatie aanpassen
-      - label: Zoekfunctie bouwen
-        description: Can be paired with the refactor task to save time.
-      - label: Filter logica
-      - label: Sortering implementeren
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Paginering toevoegen
-      - label: Responsive maken
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Accessibility check
-      - label: SEO optimalisatie
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Analytics instellen
-      - label: A/B test opzetten
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Feedback verwerken
-  - name: Sprint 3
-    group: Planning
-    items:
-      - label: Update documentatie
-      - label: Review pull request
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Fix login bug
-      - label: Deploy naar staging
-        description: Needs sign-off from design before implementation can start.
-      - label: Database migratie
-      - label: API endpoint toevoegen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Unit tests schrijven
-      - label: Code review doen
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Design mock-up maken
-      - label: Klant bellen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Sprint planning
-      - label: Retrospective voorbereiden
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Dependencies updaten
-      - label: Security audit
-        description: Can be paired with the refactor task to save time.
-      - label: Performance optimalisatie
-      - label: Error logging instellen
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Backup configureren
-      - label: SSL certificaat vernieuwen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Load balancer instellen
-      - label: Cache legen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Rapport genereren
-      - label: Email beantwoorden
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Meeting voorbereiden
-      - label: Factuur versturen
-        description: Needs sign-off from design before implementation can start.
-      - label: Budget bijwerken
-      - label: Offerte maken
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Contract opstellen
-      - label: Onboarding document
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Test omgeving opzetten
-      - label: CI/CD pipeline fixen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Docker image bouwen
-      - label: Kubernetes config
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Monitoring instellen
-      - label: Alert regels toevoegen
-        description: Can be paired with the refactor task to save time.
-      - label: Dashboard maken
-      - label: Data exporteren
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Import script schrijven
-      - label: Validatie toevoegen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Formulier bouwen
-      - label: Navigatie aanpassen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Zoekfunctie bouwen
-      - label: Filter logica
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Sortering implementeren
-      - label: Paginering toevoegen
-        description: Needs sign-off from design before implementation can start.
-      - label: Responsive maken
-      - label: Accessibility check
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: SEO optimalisatie
-      - label: Analytics instellen
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: A/B test opzetten
-      - label: Feedback verwerken
-        description: Discuss with stakeholders first. There may be compliance implications.
-  - name: In Progress
-    group: Uitvoering
-    items:
-      - label: Update documentatie
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Review pull request
-      - label: Fix login bug
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Deploy naar staging
-      - label: Database migratie
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: API endpoint toevoegen
-      - label: Unit tests schrijven
-        description: Can be paired with the refactor task to save time.
-      - label: Code review doen
-      - label: Design mock-up maken
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Klant bellen
-      - label: Sprint planning
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Retrospective voorbereiden
-      - label: Dependencies updaten
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Security audit
-      - label: Performance optimalisatie
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Error logging instellen
-      - label: Backup configureren
-        description: Needs sign-off from design before implementation can start.
-      - label: SSL certificaat vernieuwen
-      - label: Load balancer instellen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Cache legen
-      - label: Rapport genereren
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Email beantwoorden
-      - label: Meeting voorbereiden
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Factuur versturen
-      - label: Budget bijwerken
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Offerte maken
-      - label: Contract opstellen
-        description: Can be paired with the refactor task to save time.
-      - label: Onboarding document
-      - label: Test omgeving opzetten
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: CI/CD pipeline fixen
-      - label: Docker image bouwen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Kubernetes config
-      - label: Monitoring instellen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Alert regels toevoegen
-      - label: Dashboard maken
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Data exporteren
-      - label: Import script schrijven
-        description: Needs sign-off from design before implementation can start.
-      - label: Validatie toevoegen
-      - label: Formulier bouwen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Navigatie aanpassen
-      - label: Zoekfunctie bouwen
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Filter logica
-      - label: Sortering implementeren
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Paginering toevoegen
-      - label: Responsive maken
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Accessibility check
-      - label: SEO optimalisatie
-        description: Can be paired with the refactor task to save time.
-      - label: Analytics instellen
-      - label: A/B test opzetten
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Feedback verwerken
-  - name: Review
-    group: Uitvoering
-    items:
-      - label: Update documentatie
-      - label: Review pull request
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Fix login bug
-      - label: Deploy naar staging
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Database migratie
-      - label: API endpoint toevoegen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Unit tests schrijven
-      - label: Code review doen
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Design mock-up maken
-      - label: Klant bellen
-        description: Needs sign-off from design before implementation can start.
-      - label: Sprint planning
-      - label: Retrospective voorbereiden
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Dependencies updaten
-      - label: Security audit
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Performance optimalisatie
-      - label: Error logging instellen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Backup configureren
-      - label: SSL certificaat vernieuwen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Load balancer instellen
-      - label: Cache legen
-        description: Can be paired with the refactor task to save time.
-      - label: Rapport genereren
-      - label: Email beantwoorden
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Meeting voorbereiden
-      - label: Factuur versturen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Budget bijwerken
-      - label: Offerte maken
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Contract opstellen
-      - label: Onboarding document
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Test omgeving opzetten
-      - label: CI/CD pipeline fixen
-        description: Needs sign-off from design before implementation can start.
-      - label: Docker image bouwen
-      - label: Kubernetes config
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Monitoring instellen
-      - label: Alert regels toevoegen
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Dashboard maken
-      - label: Data exporteren
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Import script schrijven
-      - label: Validatie toevoegen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Formulier bouwen
-      - label: Navigatie aanpassen
-        description: Can be paired with the refactor task to save time.
-      - label: Zoekfunctie bouwen
-      - label: Filter logica
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Sortering implementeren
-      - label: Paginering toevoegen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Responsive maken
-      - label: Accessibility check
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: SEO optimalisatie
-      - label: Analytics instellen
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: A/B test opzetten
-      - label: Feedback verwerken
-        description: Needs sign-off from design before implementation can start.
-  - name: Testing
-    group: Uitvoering
-    items:
-      - label: Update documentatie
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Review pull request
-      - label: Fix login bug
-        description: Needs sign-off from design before implementation can start.
-      - label: Deploy naar staging
-      - label: Database migratie
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: API endpoint toevoegen
-      - label: Unit tests schrijven
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Code review doen
-      - label: Design mock-up maken
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Klant bellen
-      - label: Sprint planning
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Retrospective voorbereiden
-      - label: Dependencies updaten
-        description: Can be paired with the refactor task to save time.
-      - label: Security audit
-      - label: Performance optimalisatie
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Error logging instellen
-      - label: Backup configureren
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: SSL certificaat vernieuwen
-      - label: Load balancer instellen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Cache legen
-      - label: Rapport genereren
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Email beantwoorden
-      - label: Meeting voorbereiden
-        description: Needs sign-off from design before implementation can start.
-      - label: Factuur versturen
-      - label: Budget bijwerken
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Offerte maken
-      - label: Contract opstellen
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Onboarding document
-      - label: Test omgeving opzetten
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: CI/CD pipeline fixen
-      - label: Docker image bouwen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Kubernetes config
-      - label: Monitoring instellen
-        description: Can be paired with the refactor task to save time.
-      - label: Alert regels toevoegen
-      - label: Dashboard maken
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Data exporteren
-      - label: Import script schrijven
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Validatie toevoegen
-      - label: Formulier bouwen
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Navigatie aanpassen
-      - label: Zoekfunctie bouwen
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Filter logica
-      - label: Sortering implementeren
-        description: Needs sign-off from design before implementation can start.
-      - label: Paginering toevoegen
-      - label: Responsive maken
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Accessibility check
-      - label: SEO optimalisatie
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Analytics instellen
-      - label: A/B test opzetten
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Feedback verwerken
-  - name: Done
-    group: Uitvoering
-    items:
-      - label: Update documentatie
-      - label: Review pull request
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Fix login bug
-      - label: Deploy naar staging
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Database migratie
-      - label: API endpoint toevoegen
-        description: Can be paired with the refactor task to save time.
-      - label: Unit tests schrijven
-      - label: Code review doen
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Design mock-up maken
-      - label: Klant bellen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Sprint planning
-      - label: Retrospective voorbereiden
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Dependencies updaten
-      - label: Security audit
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Performance optimalisatie
-      - label: Error logging instellen
-        description: Needs sign-off from design before implementation can start.
-      - label: Backup configureren
-      - label: SSL certificaat vernieuwen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Load balancer instellen
-      - label: Cache legen
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Rapport genereren
-      - label: Email beantwoorden
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Meeting voorbereiden
-      - label: Factuur versturen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Budget bijwerken
-      - label: Offerte maken
-        description: Can be paired with the refactor task to save time.
-      - label: Contract opstellen
-      - label: Onboarding document
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Test omgeving opzetten
-      - label: CI/CD pipeline fixen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Docker image bouwen
-      - label: Kubernetes config
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Monitoring instellen
-      - label: Alert regels toevoegen
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Dashboard maken
-      - label: Data exporteren
-        description: Needs sign-off from design before implementation can start.
-      - label: Import script schrijven
-      - label: Validatie toevoegen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Formulier bouwen
-      - label: Navigatie aanpassen
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Zoekfunctie bouwen
-      - label: Filter logica
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Sortering implementeren
-      - label: Paginering toevoegen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Responsive maken
-      - label: Accessibility check
-        description: Can be paired with the refactor task to save time.
-      - label: SEO optimalisatie
-      - label: Analytics instellen
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: A/B test opzetten
-      - label: Feedback verwerken
-        description: Part of the tech debt cleanup initiative for this quarter.
   - name: Bugs
     items:
       - label: Update documentatie
@@ -1085,83 +461,6 @@ lists:
       - label: A/B test opzetten
       - label: Feedback verwerken
         description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-  - name: Security
-    items:
-      - label: Update documentatie
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Review pull request
-      - label: Fix login bug
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Deploy naar staging
-      - label: Database migratie
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: API endpoint toevoegen
-      - label: Unit tests schrijven
-        description: Needs sign-off from design before implementation can start.
-      - label: Code review doen
-      - label: Design mock-up maken
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Klant bellen
-      - label: Sprint planning
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Retrospective voorbereiden
-      - label: Dependencies updaten
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Security audit
-      - label: Performance optimalisatie
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Error logging instellen
-      - label: Backup configureren
-        description: Can be paired with the refactor task to save time.
-      - label: SSL certificaat vernieuwen
-      - label: Load balancer instellen
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Cache legen
-      - label: Rapport genereren
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Email beantwoorden
-      - label: Meeting voorbereiden
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Factuur versturen
-      - label: Budget bijwerken
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Offerte maken
-      - label: Contract opstellen
-        description: Needs sign-off from design before implementation can start.
-      - label: Onboarding document
-      - label: Test omgeving opzetten
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: CI/CD pipeline fixen
-      - label: Docker image bouwen
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Kubernetes config
-      - label: Monitoring instellen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Alert regels toevoegen
-      - label: Dashboard maken
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Data exporteren
-      - label: Import script schrijven
-        description: Can be paired with the refactor task to save time.
-      - label: Validatie toevoegen
-      - label: Formulier bouwen
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Navigatie aanpassen
-      - label: Zoekfunctie bouwen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Filter logica
-      - label: Sortering implementeren
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Paginering toevoegen
-      - label: Responsive maken
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Accessibility check
-      - label: SEO optimalisatie
-        description: Needs sign-off from design before implementation can start.
-      - label: Analytics instellen
-      - label: A/B test opzetten
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Feedback verwerken
   - name: Marketing
     items:
       - label: Update documentatie
@@ -1239,83 +538,6 @@ lists:
       - label: A/B test opzetten
       - label: Feedback verwerken
         description: Can be paired with the refactor task to save time.
-  - name: Support
-    items:
-      - label: Update documentatie
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Review pull request
-      - label: Fix login bug
-        description: Can be paired with the refactor task to save time.
-      - label: Deploy naar staging
-      - label: Database migratie
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: API endpoint toevoegen
-      - label: Unit tests schrijven
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Code review doen
-      - label: Design mock-up maken
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Klant bellen
-      - label: Sprint planning
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Retrospective voorbereiden
-      - label: Dependencies updaten
-        description: Needs sign-off from design before implementation can start.
-      - label: Security audit
-      - label: Performance optimalisatie
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Error logging instellen
-      - label: Backup configureren
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: SSL certificaat vernieuwen
-      - label: Load balancer instellen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Cache legen
-      - label: Rapport genereren
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Email beantwoorden
-      - label: Meeting voorbereiden
-        description: Can be paired with the refactor task to save time.
-      - label: Factuur versturen
-      - label: Budget bijwerken
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Offerte maken
-      - label: Contract opstellen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Onboarding document
-      - label: Test omgeving opzetten
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: CI/CD pipeline fixen
-      - label: Docker image bouwen
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Kubernetes config
-      - label: Monitoring instellen
-        description: Needs sign-off from design before implementation can start.
-      - label: Alert regels toevoegen
-      - label: Dashboard maken
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Data exporteren
-      - label: Import script schrijven
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Validatie toevoegen
-      - label: Formulier bouwen
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Navigatie aanpassen
-      - label: Zoekfunctie bouwen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Filter logica
-      - label: Sortering implementeren
-        description: Can be paired with the refactor task to save time.
-      - label: Paginering toevoegen
-      - label: Responsive maken
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Accessibility check
-      - label: SEO optimalisatie
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Analytics instellen
-      - label: A/B test opzetten
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Feedback verwerken
   - name: Research
     items:
       - label: Update documentatie
@@ -2933,83 +2155,6 @@ lists:
       - label: A/B test opzetten
       - label: Feedback verwerken
         description: Already partially done in branch `feature/cleanup`. Pick up from there.
-  - name: Blocked
-    items:
-      - label: Update documentatie
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Review pull request
-      - label: Fix login bug
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Deploy naar staging
-      - label: Database migratie
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: API endpoint toevoegen
-      - label: Unit tests schrijven
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Code review doen
-      - label: Design mock-up maken
-        description: Can be paired with the refactor task to save time.
-      - label: Klant bellen
-      - label: Sprint planning
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Retrospective voorbereiden
-      - label: Dependencies updaten
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Security audit
-      - label: Performance optimalisatie
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Error logging instellen
-      - label: Backup configureren
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: SSL certificaat vernieuwen
-      - label: Load balancer instellen
-        description: Needs sign-off from design before implementation can start.
-      - label: Cache legen
-      - label: Rapport genereren
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Email beantwoorden
-      - label: Meeting voorbereiden
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Factuur versturen
-      - label: Budget bijwerken
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Offerte maken
-      - label: Contract opstellen
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Onboarding document
-      - label: Test omgeving opzetten
-        description: Can be paired with the refactor task to save time.
-      - label: CI/CD pipeline fixen
-      - label: Docker image bouwen
-        description: Quick win. Should take less than 30 minutes if environment is set up.
-      - label: Kubernetes config
-      - label: Monitoring instellen
-        description: Part of the tech debt cleanup initiative for this quarter.
-      - label: Alert regels toevoegen
-      - label: Dashboard maken
-        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
-      - label: Data exporteren
-      - label: Import script schrijven
-        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
-      - label: Validatie toevoegen
-      - label: Formulier bouwen
-        description: Needs sign-off from design before implementation can start.
-      - label: Navigatie aanpassen
-      - label: Zoekfunctie bouwen
-        description: Performance impact unclear. Benchmark before and after to validate the change.
-      - label: Filter logica
-      - label: Sortering implementeren
-        description: Already partially done in branch `feature/cleanup`. Pick up from there.
-      - label: Paginering toevoegen
-      - label: Responsive maken
-        description: Discuss with stakeholders first. There may be compliance implications.
-      - label: Accessibility check
-      - label: SEO optimalisatie
-        description: Introduced in the last sprint retro as a pain point. High team impact.
-      - label: Analytics instellen
-      - label: A/B test opzetten
-        description: Can be paired with the refactor task to save time.
-      - label: Feedback verwerken
   - name: Urgent
     items:
       - label: Update documentatie
@@ -3087,3 +2232,860 @@ lists:
       - label: A/B test opzetten
       - label: Feedback verwerken
         description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+  - name: Blocked
+    items:
+      - label: Update documentatie
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Review pull request
+      - label: Fix login bug
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Deploy naar staging
+      - label: Database migratie
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: API endpoint toevoegen
+      - label: Unit tests schrijven
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Code review doen
+      - label: Design mock-up maken
+        description: Can be paired with the refactor task to save time.
+      - label: Klant bellen
+      - label: Sprint planning
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Retrospective voorbereiden
+      - label: Dependencies updaten
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Security audit
+      - label: Performance optimalisatie
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Error logging instellen
+      - label: Backup configureren
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: SSL certificaat vernieuwen
+      - label: Load balancer instellen
+        description: Needs sign-off from design before implementation can start.
+      - label: Cache legen
+      - label: Rapport genereren
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Email beantwoorden
+      - label: Meeting voorbereiden
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Factuur versturen
+      - label: Budget bijwerken
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Offerte maken
+      - label: Contract opstellen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Onboarding document
+      - label: Test omgeving opzetten
+        description: Can be paired with the refactor task to save time.
+      - label: CI/CD pipeline fixen
+      - label: Docker image bouwen
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Kubernetes config
+      - label: Monitoring instellen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Alert regels toevoegen
+      - label: Dashboard maken
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Data exporteren
+      - label: Import script schrijven
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Validatie toevoegen
+      - label: Formulier bouwen
+        description: Needs sign-off from design before implementation can start.
+      - label: Navigatie aanpassen
+      - label: Zoekfunctie bouwen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Filter logica
+      - label: Sortering implementeren
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Paginering toevoegen
+      - label: Responsive maken
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Accessibility check
+      - label: SEO optimalisatie
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Analytics instellen
+      - label: A/B test opzetten
+        description: Can be paired with the refactor task to save time.
+      - label: Feedback verwerken
+  - name: Support
+    group: Planning
+    items:
+      - label: Update documentatie
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Review pull request
+      - label: Fix login bug
+        description: Can be paired with the refactor task to save time.
+      - label: Deploy naar staging
+      - label: Database migratie
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: API endpoint toevoegen
+      - label: Unit tests schrijven
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Code review doen
+      - label: Design mock-up maken
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Klant bellen
+      - label: Sprint planning
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Retrospective voorbereiden
+      - label: Dependencies updaten
+        description: Needs sign-off from design before implementation can start.
+      - label: Security audit
+      - label: Performance optimalisatie
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Error logging instellen
+      - label: Backup configureren
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: SSL certificaat vernieuwen
+      - label: Load balancer instellen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Cache legen
+      - label: Rapport genereren
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Email beantwoorden
+      - label: Meeting voorbereiden
+        description: Can be paired with the refactor task to save time.
+      - label: Factuur versturen
+      - label: Budget bijwerken
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Offerte maken
+      - label: Contract opstellen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Onboarding document
+      - label: Test omgeving opzetten
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: CI/CD pipeline fixen
+      - label: Docker image bouwen
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Kubernetes config
+      - label: Monitoring instellen
+        description: Needs sign-off from design before implementation can start.
+      - label: Alert regels toevoegen
+      - label: Dashboard maken
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Data exporteren
+      - label: Import script schrijven
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Validatie toevoegen
+      - label: Formulier bouwen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Navigatie aanpassen
+      - label: Zoekfunctie bouwen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Filter logica
+      - label: Sortering implementeren
+        description: Can be paired with the refactor task to save time.
+      - label: Paginering toevoegen
+      - label: Responsive maken
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Accessibility check
+      - label: SEO optimalisatie
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Analytics instellen
+      - label: A/B test opzetten
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Feedback verwerken
+  - name: Security
+    group: Planning
+    items:
+      - label: Update documentatie
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Review pull request
+      - label: Fix login bug
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Deploy naar staging
+      - label: Database migratie
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: API endpoint toevoegen
+      - label: Unit tests schrijven
+        description: Needs sign-off from design before implementation can start.
+      - label: Code review doen
+      - label: Design mock-up maken
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Klant bellen
+      - label: Sprint planning
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Retrospective voorbereiden
+      - label: Dependencies updaten
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Security audit
+      - label: Performance optimalisatie
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Error logging instellen
+      - label: Backup configureren
+        description: Can be paired with the refactor task to save time.
+      - label: SSL certificaat vernieuwen
+      - label: Load balancer instellen
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Cache legen
+      - label: Rapport genereren
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Email beantwoorden
+      - label: Meeting voorbereiden
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Factuur versturen
+      - label: Budget bijwerken
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Offerte maken
+      - label: Contract opstellen
+        description: Needs sign-off from design before implementation can start.
+      - label: Onboarding document
+      - label: Test omgeving opzetten
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: CI/CD pipeline fixen
+      - label: Docker image bouwen
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Kubernetes config
+      - label: Monitoring instellen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Alert regels toevoegen
+      - label: Dashboard maken
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Data exporteren
+      - label: Import script schrijven
+        description: Can be paired with the refactor task to save time.
+      - label: Validatie toevoegen
+      - label: Formulier bouwen
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Navigatie aanpassen
+      - label: Zoekfunctie bouwen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Filter logica
+      - label: Sortering implementeren
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Paginering toevoegen
+      - label: Responsive maken
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Accessibility check
+      - label: SEO optimalisatie
+        description: Needs sign-off from design before implementation can start.
+      - label: Analytics instellen
+      - label: A/B test opzetten
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Feedback verwerken
+  - name: Backlog
+    group: Planning
+    items:
+      - label: Update documentatie
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Review pull request
+      - label: Fix login bug
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Deploy naar staging
+      - label: Database migratie
+        description: Needs sign-off from design before implementation can start.
+      - label: API endpoint toevoegen
+      - label: Unit tests schrijven
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Code review doen
+      - label: Design mock-up maken
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Klant bellen
+      - label: Sprint planning
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Retrospective voorbereiden
+      - label: Dependencies updaten
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Security audit
+      - label: Performance optimalisatie
+        description: Can be paired with the refactor task to save time.
+      - label: Error logging instellen
+      - label: Backup configureren
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: SSL certificaat vernieuwen
+      - label: Load balancer instellen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Cache legen
+      - label: Rapport genereren
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Email beantwoorden
+      - label: Meeting voorbereiden
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Factuur versturen
+      - label: Budget bijwerken
+        description: Needs sign-off from design before implementation can start.
+      - label: Offerte maken
+      - label: Contract opstellen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Onboarding document
+      - label: Test omgeving opzetten
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: CI/CD pipeline fixen
+      - label: Docker image bouwen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Kubernetes config
+      - label: Monitoring instellen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Alert regels toevoegen
+      - label: Dashboard maken
+        description: Can be paired with the refactor task to save time.
+      - label: Data exporteren
+      - label: Import script schrijven
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Validatie toevoegen
+      - label: Formulier bouwen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Navigatie aanpassen
+      - label: Zoekfunctie bouwen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Filter logica
+      - label: Sortering implementeren
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Paginering toevoegen
+      - label: Responsive maken
+        description: Needs sign-off from design before implementation can start.
+      - label: Accessibility check
+      - label: SEO optimalisatie
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Analytics instellen
+      - label: A/B test opzetten
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Feedback verwerken
+  - name: Sprint 1
+    group: Planning
+    items:
+      - label: Update documentatie
+      - label: Review pull request
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Fix login bug
+      - label: Deploy naar staging
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Database migratie
+      - label: API endpoint toevoegen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Unit tests schrijven
+      - label: Code review doen
+        description: Can be paired with the refactor task to save time.
+      - label: Design mock-up maken
+      - label: Klant bellen
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Sprint planning
+      - label: Retrospective voorbereiden
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Dependencies updaten
+      - label: Security audit
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Performance optimalisatie
+      - label: Error logging instellen
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Backup configureren
+      - label: SSL certificaat vernieuwen
+        description: Needs sign-off from design before implementation can start.
+      - label: Load balancer instellen
+      - label: Cache legen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Rapport genereren
+      - label: Email beantwoorden
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Meeting voorbereiden
+      - label: Factuur versturen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Budget bijwerken
+      - label: Offerte maken
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Contract opstellen
+      - label: Onboarding document
+        description: Can be paired with the refactor task to save time.
+      - label: Test omgeving opzetten
+      - label: CI/CD pipeline fixen
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Docker image bouwen
+      - label: Kubernetes config
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Monitoring instellen
+      - label: Alert regels toevoegen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Dashboard maken
+      - label: Data exporteren
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Import script schrijven
+      - label: Validatie toevoegen
+        description: Needs sign-off from design before implementation can start.
+      - label: Formulier bouwen
+      - label: Navigatie aanpassen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Zoekfunctie bouwen
+      - label: Filter logica
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Sortering implementeren
+      - label: Paginering toevoegen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Responsive maken
+      - label: Accessibility check
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: SEO optimalisatie
+      - label: Analytics instellen
+        description: Can be paired with the refactor task to save time.
+      - label: A/B test opzetten
+      - label: Feedback verwerken
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+  - name: Sprint 2
+    group: Planning
+    items:
+      - label: Update documentatie
+        description: Can be paired with the refactor task to save time.
+      - label: Review pull request
+      - label: Fix login bug
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Deploy naar staging
+      - label: Database migratie
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: API endpoint toevoegen
+      - label: Unit tests schrijven
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Code review doen
+      - label: Design mock-up maken
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Klant bellen
+      - label: Sprint planning
+        description: Needs sign-off from design before implementation can start.
+      - label: Retrospective voorbereiden
+      - label: Dependencies updaten
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Security audit
+      - label: Performance optimalisatie
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Error logging instellen
+      - label: Backup configureren
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: SSL certificaat vernieuwen
+      - label: Load balancer instellen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Cache legen
+      - label: Rapport genereren
+        description: Can be paired with the refactor task to save time.
+      - label: Email beantwoorden
+      - label: Meeting voorbereiden
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Factuur versturen
+      - label: Budget bijwerken
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Offerte maken
+      - label: Contract opstellen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Onboarding document
+      - label: Test omgeving opzetten
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: CI/CD pipeline fixen
+      - label: Docker image bouwen
+        description: Needs sign-off from design before implementation can start.
+      - label: Kubernetes config
+      - label: Monitoring instellen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Alert regels toevoegen
+      - label: Dashboard maken
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Data exporteren
+      - label: Import script schrijven
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Validatie toevoegen
+      - label: Formulier bouwen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Navigatie aanpassen
+      - label: Zoekfunctie bouwen
+        description: Can be paired with the refactor task to save time.
+      - label: Filter logica
+      - label: Sortering implementeren
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Paginering toevoegen
+      - label: Responsive maken
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Accessibility check
+      - label: SEO optimalisatie
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Analytics instellen
+      - label: A/B test opzetten
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Feedback verwerken
+  - name: Sprint 3
+    group: Planning
+    items:
+      - label: Update documentatie
+      - label: Review pull request
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Fix login bug
+      - label: Deploy naar staging
+        description: Needs sign-off from design before implementation can start.
+      - label: Database migratie
+      - label: API endpoint toevoegen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Unit tests schrijven
+      - label: Code review doen
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Design mock-up maken
+      - label: Klant bellen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Retrospective voorbereiden
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Sprint planning
+      - label: Dependencies updaten
+      - label: Security audit
+        description: Can be paired with the refactor task to save time.
+      - label: Performance optimalisatie
+      - label: Error logging instellen
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Backup configureren
+      - label: SSL certificaat vernieuwen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Load balancer instellen
+      - label: Cache legen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Rapport genereren
+      - label: Email beantwoorden
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Meeting voorbereiden
+      - label: Factuur versturen
+        description: Needs sign-off from design before implementation can start.
+      - label: Budget bijwerken
+      - label: Offerte maken
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Contract opstellen
+      - label: Onboarding document
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Test omgeving opzetten
+      - label: CI/CD pipeline fixen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Docker image bouwen
+      - label: Kubernetes config
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Monitoring instellen
+      - label: Alert regels toevoegen
+        description: Can be paired with the refactor task to save time.
+      - label: Dashboard maken
+      - label: Data exporteren
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Import script schrijven
+      - label: Validatie toevoegen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Formulier bouwen
+      - label: Navigatie aanpassen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Zoekfunctie bouwen
+      - label: Filter logica
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Sortering implementeren
+      - label: Paginering toevoegen
+        description: Needs sign-off from design before implementation can start.
+      - label: Responsive maken
+      - label: Accessibility check
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: SEO optimalisatie
+      - label: Analytics instellen
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: A/B test opzetten
+      - label: Feedback verwerken
+        description: Discuss with stakeholders first. There may be compliance implications.
+  - name: In Progress
+    group: Uitvoering
+    items:
+      - label: Update documentatie
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Review pull request
+      - label: Fix login bug
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Deploy naar staging
+      - label: Database migratie
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: API endpoint toevoegen
+      - label: Unit tests schrijven
+        description: Can be paired with the refactor task to save time.
+      - label: Code review doen
+      - label: Design mock-up maken
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Klant bellen
+      - label: Sprint planning
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Retrospective voorbereiden
+      - label: Dependencies updaten
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Security audit
+      - label: Performance optimalisatie
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Error logging instellen
+      - label: Backup configureren
+        description: Needs sign-off from design before implementation can start.
+      - label: SSL certificaat vernieuwen
+      - label: Load balancer instellen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Cache legen
+      - label: Rapport genereren
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Email beantwoorden
+      - label: Meeting voorbereiden
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Factuur versturen
+      - label: Budget bijwerken
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Offerte maken
+      - label: Contract opstellen
+        description: Can be paired with the refactor task to save time.
+      - label: Onboarding document
+      - label: Test omgeving opzetten
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: CI/CD pipeline fixen
+      - label: Docker image bouwen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Kubernetes config
+      - label: Monitoring instellen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Alert regels toevoegen
+      - label: Dashboard maken
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Data exporteren
+      - label: Import script schrijven
+        description: Needs sign-off from design before implementation can start.
+      - label: Validatie toevoegen
+      - label: Formulier bouwen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Navigatie aanpassen
+      - label: Zoekfunctie bouwen
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Filter logica
+      - label: Sortering implementeren
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Paginering toevoegen
+      - label: Responsive maken
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Accessibility check
+      - label: SEO optimalisatie
+        description: Can be paired with the refactor task to save time.
+      - label: Analytics instellen
+      - label: A/B test opzetten
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Feedback verwerken
+  - name: Review
+    group: Uitvoering
+    items:
+      - label: Update documentatie
+      - label: Review pull request
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Fix login bug
+      - label: Deploy naar staging
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Database migratie
+      - label: API endpoint toevoegen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Unit tests schrijven
+      - label: Code review doen
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Design mock-up maken
+      - label: Klant bellen
+        description: Needs sign-off from design before implementation can start.
+      - label: Sprint planning
+      - label: Retrospective voorbereiden
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Dependencies updaten
+      - label: Security audit
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Performance optimalisatie
+      - label: Error logging instellen
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Backup configureren
+      - label: SSL certificaat vernieuwen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Load balancer instellen
+      - label: Cache legen
+        description: Can be paired with the refactor task to save time.
+      - label: Rapport genereren
+      - label: Email beantwoorden
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Meeting voorbereiden
+      - label: Factuur versturen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Budget bijwerken
+      - label: Offerte maken
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Contract opstellen
+      - label: Onboarding document
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Test omgeving opzetten
+      - label: CI/CD pipeline fixen
+        description: Needs sign-off from design before implementation can start.
+      - label: Docker image bouwen
+      - label: Kubernetes config
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Monitoring instellen
+      - label: Alert regels toevoegen
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Dashboard maken
+      - label: Data exporteren
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Import script schrijven
+      - label: Validatie toevoegen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Formulier bouwen
+      - label: Navigatie aanpassen
+        description: Can be paired with the refactor task to save time.
+      - label: Zoekfunctie bouwen
+      - label: Filter logica
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Sortering implementeren
+      - label: Paginering toevoegen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Responsive maken
+      - label: Accessibility check
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: SEO optimalisatie
+      - label: Analytics instellen
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: A/B test opzetten
+      - label: Feedback verwerken
+        description: Needs sign-off from design before implementation can start.
+  - name: Testing
+    group: Uitvoering
+    items:
+      - label: Update documentatie
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Review pull request
+      - label: Fix login bug
+        description: Needs sign-off from design before implementation can start.
+      - label: Deploy naar staging
+      - label: Database migratie
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: API endpoint toevoegen
+      - label: Unit tests schrijven
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Code review doen
+      - label: Design mock-up maken
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Klant bellen
+      - label: Sprint planning
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Retrospective voorbereiden
+      - label: Dependencies updaten
+        description: Can be paired with the refactor task to save time.
+      - label: Security audit
+      - label: Performance optimalisatie
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Error logging instellen
+      - label: Backup configureren
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: SSL certificaat vernieuwen
+      - label: Load balancer instellen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Cache legen
+      - label: Rapport genereren
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Email beantwoorden
+      - label: Meeting voorbereiden
+        description: Needs sign-off from design before implementation can start.
+      - label: Factuur versturen
+      - label: Budget bijwerken
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Offerte maken
+      - label: Contract opstellen
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Onboarding document
+      - label: Test omgeving opzetten
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: CI/CD pipeline fixen
+      - label: Docker image bouwen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Kubernetes config
+      - label: Monitoring instellen
+        description: Can be paired with the refactor task to save time.
+      - label: Alert regels toevoegen
+      - label: Dashboard maken
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Data exporteren
+      - label: Import script schrijven
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Validatie toevoegen
+      - label: Formulier bouwen
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Navigatie aanpassen
+      - label: Zoekfunctie bouwen
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Filter logica
+      - label: Sortering implementeren
+        description: Needs sign-off from design before implementation can start.
+      - label: Paginering toevoegen
+      - label: Responsive maken
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Accessibility check
+      - label: SEO optimalisatie
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Analytics instellen
+      - label: A/B test opzetten
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Feedback verwerken
+  - name: Done
+    group: Uitvoering
+    items:
+      - label: Update documentatie
+      - label: Review pull request
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Fix login bug
+      - label: Deploy naar staging
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Database migratie
+      - label: API endpoint toevoegen
+        description: Can be paired with the refactor task to save time.
+      - label: Unit tests schrijven
+      - label: Code review doen
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Design mock-up maken
+      - label: Klant bellen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Sprint planning
+      - label: Retrospective voorbereiden
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Dependencies updaten
+      - label: Security audit
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Performance optimalisatie
+      - label: Error logging instellen
+        description: Needs sign-off from design before implementation can start.
+      - label: Backup configureren
+      - label: SSL certificaat vernieuwen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Load balancer instellen
+      - label: Cache legen
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Rapport genereren
+      - label: Email beantwoorden
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Meeting voorbereiden
+      - label: Factuur versturen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Budget bijwerken
+      - label: Offerte maken
+        description: Can be paired with the refactor task to save time.
+      - label: Contract opstellen
+      - label: Onboarding document
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: Test omgeving opzetten
+      - label: CI/CD pipeline fixen
+        description: Part of the tech debt cleanup initiative for this quarter.
+      - label: Docker image bouwen
+      - label: Kubernetes config
+        description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
+      - label: Monitoring instellen
+      - label: Alert regels toevoegen
+        description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
+      - label: Dashboard maken
+      - label: Data exporteren
+        description: Needs sign-off from design before implementation can start.
+      - label: Import script schrijven
+      - label: Validatie toevoegen
+        description: Performance impact unclear. Benchmark before and after to validate the change.
+      - label: Formulier bouwen
+      - label: Navigatie aanpassen
+        description: Already partially done in branch `feature/cleanup`. Pick up from there.
+      - label: Zoekfunctie bouwen
+      - label: Filter logica
+        description: Discuss with stakeholders first. There may be compliance implications.
+      - label: Sortering implementeren
+      - label: Paginering toevoegen
+        description: Introduced in the last sprint retro as a pain point. High team impact.
+      - label: Responsive maken
+      - label: Accessibility check
+        description: Can be paired with the refactor task to save time.
+      - label: SEO optimalisatie
+      - label: Analytics instellen
+        description: Quick win. Should take less than 30 minutes if environment is set up.
+      - label: A/B test opzetten
+      - label: Feedback verwerken
+        description: Part of the tech debt cleanup initiative for this quarter.

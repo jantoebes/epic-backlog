@@ -1,6 +1,5 @@
 import { createContext, useContext, useState, useEffect, useRef } from "react";
 import { arrayMove } from "@dnd-kit/sortable";
-import { generateLists } from "./data";
 
 const API = "http://localhost:3001/api/board";
 
@@ -54,6 +53,19 @@ const reorderItemInList = (lists, activeId, overId) => {
   );
 };
 
+const sortLists = (lists) => {
+  const grouped = lists.reduce((acc, list) => {
+    const key = list.group?.toLowerCase() ?? null;
+    return { ...acc, [key]: [...(acc[key] ?? []), list] };
+  }, {});
+
+  const { null: ungrouped = [], ...rest } = grouped;
+  return [
+    ...ungrouped,
+    ...Object.values(rest).flat(),
+  ];
+};
+
 const moveMultipleItems = (lists, itemIds, targetListId) => {
   const idSet = new Set(itemIds);
   const movedItems = [];
@@ -84,8 +96,8 @@ export function BoardProvider({ children }) {
   useEffect(() => {
     fetch(API)
       .then((r) => r.json())
-      .then((data) => setLists(data.lists))
-      .catch(() => setLists(generateLists(40, 50)))
+      .then((data) => setLists(sortLists(data.lists)))
+      .catch(() => setLists([]))
       .finally(() => setLoading(false));
   }, []);
 
@@ -123,6 +135,17 @@ export function BoardProvider({ children }) {
   const moveItems = (itemIds, targetListId) =>
     persist((prev) => moveMultipleItems(prev, itemIds, targetListId));
 
+  const setListGroup = (listId, group) =>
+    persist((prev) =>
+      sortLists(
+        prev.map((l) => {
+          if (l.id !== listId) return l;
+          const { group: _g, ...rest } = l;
+          return group ? { ...rest, group } : rest;
+        })
+      )
+    );
+
   const moveList = (listId, direction) =>
     persist((prev) => {
       const index = prev.findIndex((l) => l.id === listId);
@@ -132,7 +155,7 @@ export function BoardProvider({ children }) {
     });
 
   return (
-    <BoardContext.Provider value={{ lists, loading, reorderItem, moveItem, moveItems, moveList, editItem }}>
+    <BoardContext.Provider value={{ lists, loading, reorderItem, moveItem, moveItems, moveList, editItem, setListGroup }}>
       {children}
     </BoardContext.Provider>
   );
