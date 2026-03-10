@@ -1,5 +1,6 @@
 lists:
   - name: Backlog
+    group: Planning
     items:
       - label: Update documentatie
         description: Check with the team before starting. Make sure all dependencies are in place and the environment is ready.
@@ -77,6 +78,7 @@ lists:
         description: Already partially done in branch `feature/cleanup`. Pick up from there.
       - label: Feedback verwerken
   - name: Sprint 1
+    group: Planning
     items:
       - label: Update documentatie
       - label: Review pull request
@@ -154,6 +156,7 @@ lists:
       - label: Feedback verwerken
         description: Quick win. Should take less than 30 minutes if environment is set up.
   - name: Sprint 2
+    group: Planning
     items:
       - label: Update documentatie
         description: Can be paired with the refactor task to save time.
@@ -231,6 +234,7 @@ lists:
         description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
       - label: Feedback verwerken
   - name: Sprint 3
+    group: Planning
     items:
       - label: Update documentatie
       - label: Review pull request
@@ -308,6 +312,7 @@ lists:
       - label: Feedback verwerken
         description: Discuss with stakeholders first. There may be compliance implications.
   - name: In Progress
+    group: Uitvoering
     items:
       - label: Update documentatie
         description: Already partially done in branch `feature/cleanup`. Pick up from there.
@@ -385,6 +390,7 @@ lists:
         description: Quick win. Should take less than 30 minutes if environment is set up.
       - label: Feedback verwerken
   - name: Review
+    group: Uitvoering
     items:
       - label: Update documentatie
       - label: Review pull request
@@ -462,6 +468,7 @@ lists:
       - label: Feedback verwerken
         description: Needs sign-off from design before implementation can start.
   - name: Testing
+    group: Uitvoering
     items:
       - label: Update documentatie
         description: 'See ticket #4821 for full context. Estimated 2-4 hours of work.'
@@ -539,6 +546,7 @@ lists:
         description: Discuss with stakeholders first. There may be compliance implications.
       - label: Feedback verwerken
   - name: Done
+    group: Uitvoering
     items:
       - label: Update documentatie
       - label: Review pull request

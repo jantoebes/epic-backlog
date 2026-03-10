@@ -20,6 +20,28 @@ body {
   background: #ccc;
 }
 
+.board-group-divider {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  background: #e0e0e0;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-top: 6px;
+}
+
+.board-group-divider span {
+  writing-mode: vertical-rl;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #777;
+  white-space: nowrap;
+}
+
 .board-row {
   display: flex;
   flex: 1;
@@ -27,6 +49,7 @@ body {
   overflow-y: hidden;
   gap: 1px;
   background: #ccc;
+  min-height: 0;
 }
 
 .list {
@@ -34,6 +57,7 @@ body {
   flex-direction: column;
   background: #fff;
   flex-shrink: 0;
+  height: 100%;
 }
 
 .list-header {

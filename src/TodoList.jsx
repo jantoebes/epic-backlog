@@ -5,15 +5,14 @@ import { useBoard } from "./BoardContext";
 import TodoItem from "./TodoItem";
 
 export default function TodoList({ list, isFirst, isLast }) {
-  const { columnWidth, rowCount } = useSettings();
+  const { columnWidth } = useSettings();
   const { moveList } = useBoard();
   const { setNodeRef } = useDroppable({ id: list.id });
 
   const itemIds = list.items.map((i) => i.id);
-  const height = `calc(100vh / ${rowCount})`;
 
   return (
-    <div className="list" style={{ minWidth: columnWidth, maxWidth: columnWidth, height }}>
+    <div className="list" style={{ minWidth: columnWidth, maxWidth: columnWidth }}>
       <div className="list-header" style={{ background: list.color }}>
         {!isFirst && (
           <button className="list-move-btn" onClick={() => moveList(list.id, "left")}>◀</button>

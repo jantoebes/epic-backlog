@@ -21,14 +21,18 @@ const findItem = (lists, id) => {
   return null;
 };
 
-const chunkArray = (arr, count) => {
-  const size = Math.ceil(arr.length / count);
-  return Array.from({ length: count }, (_, i) => arr.slice(i * size, i * size + size));
-};
+const buildRowItems = (lists) =>
+  lists.reduce((acc, list, i) => {
+    const prev = lists[i - 1];
+    if (list.group && list.group !== prev?.group) {
+      acc.push({ type: "divider", name: list.group, key: `divider-${i}` });
+    }
+    acc.push({ type: "list", list });
+    return acc;
+  }, []);
 
 export default function TodoBoard() {
   const { lists, reorderItem, moveItem } = useBoard();
-  const { rowCount } = useSettings();
   const [activeItem, setActiveItem] = useState(null);
 
   const sensors = useSensors(
@@ -50,9 +54,7 @@ export default function TodoBoard() {
       lists.find((l) => l.id === over.id);
 
     if (!activeList || !overList) return;
-    if (activeList.id !== overList.id) {
-      moveItem(active.id, over.id);
-    }
+    if (activeList.id !== overList.id) moveItem(active.id, over.id);
   };
 
   const handleDragEnd = ({ active, over }) => {
@@ -67,7 +69,7 @@ export default function TodoBoard() {
     }
   };
 
-  const rows = chunkArray(lists, rowCount);
+  const items = buildRowItems(lists);
 
   return (
     <DndContext
@@ -78,13 +80,22 @@ export default function TodoBoard() {
       onDragEnd={handleDragEnd}
     >
       <div id="app">
-        {rows.map((row, i) => (
-          <div key={i} className="board-row">
-            {row.map((list, index) => (
-              <TodoList key={list.id} list={list} isFirst={index === 0} isLast={index === row.length - 1} />
-            ))}
-          </div>
-        ))}
+        <div className="board-row">
+          {items.map((entry) =>
+            entry.type === "divider" ? (
+              <div key={entry.key} className="board-group-divider">
+                <span>{entry.name}</span>
+              </div>
+            ) : (
+              <TodoList
+                key={entry.list.id}
+                list={entry.list}
+                isFirst={false}
+                isLast={false}
+              />
+            )
+          )}
+        </div>
       </div>
       <DragOverlay>
         {activeItem && (
