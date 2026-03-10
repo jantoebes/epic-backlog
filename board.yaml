@@ -1,185 +1,290 @@
 lists:
-- name: Tuin
-  group: Klussen
-  items:
-  - label: Verzakking tuin stenen
-  - label: Vogelhuisje
-  - label: Bakje voortuin
-  - label: Douglas palen voortuin
-  - label: Robot huisje
-  - label: Markies
-  - label: Vlaggenmast
-  - label: Schommel
-  - label: Leibomen
-  - label: Leempad
-  - label: Oprit witte stenen
-  - label: Foto planten
-  - label: Schaduwdoek
-  - label: Suneclipse
-  - label: Deur melle bestellen
-  - label: Gaten maken
-  - label: Poort
-  - label: Harmonicadoek
-  - label: Speelkast
-  - label: Fietskast
-  - label: Automatische verlichting
-  - label: Lamp achterkant
-  - label: Deurhaken
-  - label: Insectenhotel
-  - label: Grote mat (hamat may)
-- name: Binnen
-  group: Klussen
-  items:
-  - label: Door huis lopen
-  - label: Reserve wieltjes argenta
-  - label: Trap kitten
-  - label: Plintje werkkamer
-  - label: Schommel rubber voorkamer
-  - label: Gordijnrails
-  - label: Gaten vullen
-  - label: Zolder latjes
-  - label: Plintjes
-  - label: Oplaad tafel
-  - label: Netwerk kast
-  - label: Dremel in werkbank
-  - label: Schuur
-  - label: Schakelaar
-  - label: Mos groen
-  - label: Afstellen philips hue
-  - label: Afstellen zonnescherm
-  - label: Gaten knieschot
-  - label: Planten
-  - label: Zolder opruimen
-  - label: Schoonmaken verf buitenkant
-  - label: Tapijt plakken
-  - label: Planten voorkamer
-- name: Verbouwen
-  group: Klussen
-  items:
-  - label: Naamplaat
-  - label: Trap verven
-  - label: Papgaaienstoel verven
-  - label: Verven woonkamer
-  - label: Tegeltjes keuken
-  - label: Plaatje
-  - label: Schiereiland
-  - label: Kunstuitleen
-  - label: Naambord
-  - label: Schapjes
-  - label: Kookeiland met tafel
-  - label: Tv bed
-  - label: Accoustisch schilderij
-  - label: Vloerkleed keuken
-- name: Kinderkamers
-  group: Klussen
-  items:
-  - label: Kinderkamer leuk maken
-  - label: Fotolijstjes
-  - label: Tafel bureau
-  - label: Makeup tafel
-  - label: Zijprofiel licht kinderkamer
-- name: Grote klussen
-  group: Klussen
-  items:
-  - label: Vliering
-  - label: Overkapping
-  - label: Splitten kamer melle
-  - label: Roomdivider
-- name: Home automation
-  group: Klussen
-  items:
-  - label: Buitenlampen
-  - label: Schakelaars
-  - label: Extra lichten
-  - label: TV Ophangen
-  - label: Dakboard instellen
-  - label: Extra tiles
-  - label: Opladen gordijnen accu
-  - label: Alex setup
-  - label: Katten maximaal eten
-  - label: Katten maximaal
-  - label: Find my iphone
-  - label: Buitenlampen in ha
-  - label: Zonnescherm
-  - label: Lock mac mini
-  - label: Roomba
-  - label: Scripts verlichting fix
-  - label: Lux
-  - label: Geen wekker
-  - label: Afvalwijzer
-  - label: Alle lampen aan/uit
-  - label: Alarm systeem
-  - label: Melle motion
-  - label: Fotos
-  - label: Abonnementen
-  - label: Switch bij bureau
-  - label: Sonos ophangen
-  - label: Domein naam
-  - label: Wake on lan
-  - label: IPTV
-  - label: Fotos mac mini
-  - label: Automatisch inschrijven
-  - label: Router speed
-  - label: Plexiglas 3d printer
-  - label: Nixplay automatisch fotos
-  - label: Do not disturb configureren
-  - label: Automatisch deuren op slot
-  - label: Tablet displays ophangen voor inzicht
-  - label: Stroommeter inlezen
-  - label: Zonnepanelen inlezen
-  - label: Spellen computer instellen
-  - label: Wifi connecten zehnder
-  - label: Talkiepi maken
-  - label: Planten monitor
-  - label: Koe tuin
-  - label: Rugzak licht
-  - label: Lampen
-- name: Low Prio
-  group: Klussen
-  items:
-  - label: Anita sleutel
-  - label: Poster baby/kinder fotos
-  - label: Psycholoog filmpjes
-  - label: Piano
-- name: Kennis
-  group: Werk
-  items:
-  - label: Kotlin coroutines
-  - label: Kurtzgezagt
-- name: Certificaten
-  group: Werk
-  items:
-  - label: Gen ai aws
-  - label: Ckad
-  - label: .NET
-  - label: Architectuur
-  - label: Jetbrains
-  - label: Congruent data streaming
-  - label: OU certificaten
-  - label: Certified Platform Engineering Practitioner
-  - label: Google Generative AI Leader
-  - label: Databricks GenAI Engineer Associate
-  - label: AI Training
-  - label: Funle
-  - label: Togaf
-  - label: Databricks
-  - label: Cloud Digital Leader
-- name: Bedrijf
-  group: Werk
-  items:
-  - label: Freelance.nl
-  - label: Springest
-  - label: CV
-  - label: Bitcoin
-  - label: Subsidie AI
-  - label: Orange quarter
-- name: Emma / Melle
-  items:
-  - label: Blind typen emma
-  - label: Taal boekjes emma
-  - label: Atletiek
-  - label: Rt remedial teaching
-- name: Overig
-  items:
-  - label: Socio overzicht
-  - label: Bieb nieuwegein
+  - name: Tuin
+    group: Klussen
+    items:
+      - label: Verzakking tuin stenen
+      - label: Vogelhuisje
+      - label: Bakje voortuin
+      - label: Douglas palen voortuin
+      - label: Robot huisje
+      - label: Markies
+      - label: Vlaggenmast
+      - label: Schommel
+      - label: Leibomen
+      - label: Leempad
+      - label: Oprit witte stenen
+      - label: Foto planten
+      - label: Schaduwdoek
+      - label: Suneclipse
+      - label: Deur melle bestellen
+      - label: Gaten maken
+      - label: Poort
+      - label: Harmonicadoek
+      - label: Speelkast
+      - label: Fietskast
+      - label: Automatische verlichting
+      - label: Lamp achterkant
+      - label: Deurhaken
+      - label: Insectenhotel
+      - label: Grote mat (hamat may)
+  - name: Binnen
+    group: Klussen
+    items:
+      - label: Door huis lopen
+      - label: Reserve wieltjes argenta
+      - label: Trap kitten
+      - label: Plintje werkkamer
+      - label: Schommel rubber voorkamer
+      - label: Gordijnrails
+      - label: Gaten vullen
+      - label: Zolder latjes
+      - label: Plintjes
+      - label: Oplaad tafel
+      - label: Netwerk kast
+      - label: Dremel in werkbank
+      - label: Schuur
+      - label: Schakelaar
+      - label: Mos groen
+      - label: Afstellen philips hue
+      - label: Afstellen zonnescherm
+      - label: Gaten knieschot
+      - label: Planten
+      - label: Zolder opruimen
+      - label: Schoonmaken verf buitenkant
+      - label: Tapijt plakken
+      - label: Planten voorkamer
+  - name: Verbouwen
+    group: Klussen
+    items:
+      - label: Naamplaat
+      - label: Trap verven
+      - label: Papgaaienstoel verven
+      - label: Verven woonkamer
+      - label: Tegeltjes keuken
+      - label: Plaatje
+      - label: Schiereiland
+      - label: Kunstuitleen
+      - label: Naambord
+      - label: Schapjes
+      - label: Kookeiland met tafel
+      - label: Tv bed
+      - label: Accoustisch schilderij
+      - label: Vloerkleed keuken
+  - name: Kinderkamers
+    group: Klussen
+    items:
+      - label: Kinderkamer leuk maken
+      - label: Fotolijstjes
+      - label: Tafel bureau
+      - label: Makeup tafel
+      - label: Zijprofiel licht kinderkamer
+  - name: Grote klussen
+    group: Klussen
+    items:
+      - label: Vliering
+      - label: Overkapping
+      - label: Splitten kamer melle
+      - label: Roomdivider
+  - name: Home automation
+    group: Klussen
+    items:
+      - label: Buitenlampen
+      - label: Schakelaars
+      - label: Extra lichten
+      - label: TV Ophangen
+      - label: Dakboard instellen
+      - label: Extra tiles
+      - label: Opladen gordijnen accu
+      - label: Alex setup
+      - label: Katten maximaal eten
+      - label: Katten maximaal
+      - label: Find my iphone
+      - label: Buitenlampen in ha
+      - label: Zonnescherm
+      - label: Lock mac mini
+      - label: Roomba
+      - label: Scripts verlichting fix
+      - label: Lux
+      - label: Geen wekker
+      - label: Afvalwijzer
+      - label: Alle lampen aan/uit
+      - label: Alarm systeem
+      - label: Melle motion
+      - label: Fotos
+      - label: Abonnementen
+      - label: Switch bij bureau
+      - label: Sonos ophangen
+      - label: Domein naam
+      - label: Wake on lan
+      - label: IPTV
+      - label: Fotos mac mini
+      - label: Automatisch inschrijven
+      - label: Router speed
+      - label: Plexiglas 3d printer
+      - label: Nixplay automatisch fotos
+      - label: Do not disturb configureren
+      - label: Automatisch deuren op slot
+      - label: Tablet displays ophangen voor inzicht
+      - label: Stroommeter inlezen
+      - label: Zonnepanelen inlezen
+      - label: Spellen computer instellen
+      - label: Wifi connecten zehnder
+      - label: Talkiepi maken
+      - label: Planten monitor
+      - label: Koe tuin
+      - label: Rugzak licht
+      - label: Lampen
+      - label: Aankomst verlaten script
+      - label: Planten sensor
+      - label: iRobot default action
+      - label: Verlichting begane grond
+      - label: Sync button
+      - label: Vakantie
+      - label: Uitslapen
+      - label: Laatste beweging
+      - label: Aankomst woning enable script
+      - label: Aankomst lichten
+      - label: Cito oefen boeken
+      - label: Badkamer verlichting
+      - label: Melle schakelaar
+      - label: Licht uit slapen
+      - label: Meerdere motions
+      - label: Muziek switch
+      - label: Meerdere zones
+      - label: Wekker lampen verlaat
+      - label: Lichten combineren woonkamer hal
+      - label: Meer licht
+      - label: Muziek ochtend
+      - label: Scripts dashboard
+      - label: Dashboard mobile
+      - label: Dashboard helpers
+      - label: Gira schakelaar
+      - label: Ha backup
+      - label: Unjoin Sonos fail
+      - label: Deur Melle
+  - name: Low Prio
+    group: Klussen
+    items:
+      - label: Anita sleutel
+      - label: Poster baby/kinder fotos
+      - label: Psycholoog filmpjes
+      - label: Piano
+  - name: Kennis
+    group: Werk
+    items:
+      - label: Kotlin coroutines
+      - label: Kurtzgezagt
+  - name: Certificaten
+    group: Werk
+    items:
+      - label: Gen ai aws
+      - label: Ckad
+      - label: .NET
+      - label: Architectuur
+      - label: Jetbrains
+      - label: Congruent data streaming
+      - label: OU certificaten
+      - label: Certified Platform Engineering Practitioner
+      - label: Google Generative AI Leader
+      - label: Databricks GenAI Engineer Associate
+      - label: AI Training
+      - label: Funle
+      - label: Togaf
+      - label: Databricks
+      - label: Cloud Digital Leader
+  - name: Bedrijf
+    group: Werk
+    items:
+      - label: Freelance.nl
+      - label: Springest
+      - label: CV
+      - label: Bitcoin
+      - label: Subsidie AI
+      - label: Orange quarter
+  - name: Emma / Melle
+    items:
+      - label: Blind typen emma
+      - label: Taal boekjes emma
+      - label: Atletiek
+      - label: Rt remedial teaching
+  - name: Overig
+    items:
+      - label: Socio overzicht
+      - label: Bieb nieuwegein
+  - name: import-automation fixes
+    group: import
+    items:
+      - label: aankomst verlaten script
+      - label: Planten sensor
+      - label: iRobot default action
+      - label: Verlichting begane grond
+      - label: Sync button
+      - label: Vakantie
+      - label: Uitslapen
+      - label: Laatste beweging
+      - label: Aankomst woning enable script
+      - label: Aankomst lichten
+      - label: Cito oefen boeken
+      - label: Badkamer verlichting
+      - label: Melle schakelaar
+      - label: Licht uit slapen
+      - label: Meerdere motions
+      - label: Muziek switch
+      - label: Meerdere zones
+      - label: Wekker lampen verlaat
+      - label: Lichten combineren woonkamer hal
+      - label: Meer licht
+      - label: Muziek ochtend
+      - label: Scripts dashboard
+      - label: Dashboard mobile
+      - label: Dashboard helpers
+      - label: Gira schakelaar
+      - label: ha backip
+      - label: Unjoin Sonos fail
+      - label: Deur Melle
+  - name: import-home assistant
+    group: import
+    items:
+      - label: Notification
+      - label: Snooze geluid
+      - label: Woning afsluiten slaapkamer lamp niet uit
+      - label: Mis klik werkkamer is away
+      - label: Notify wanneer niet gelukt
+      - label: Altijd lock
+      - label: Notify weg
+      - label: https://nl.aliexpress.com/item/1005007470395637.html?_randl_currency=EUR&_randl_shipto=NL&src=google&pdp_npi=4%40dis!EUR!24.71!17.89!!!!!%40!12000043415097239!ppc!!!&exp_tag=gcp&src=google&albch=shopping&acnt=248-630-5778&isdl=y&slnk=&plac=&mtctp=&albbt=G
+      - label: Lux meter
+      - label: Motion state 14:36 nit aan plafond
+      - label: Playlist custom
+      - label: Waarom Sonos uit vanochtend
+      - label: Auto lock
+      - label: gordijnen doen het niet goed
+      - label: Geen radio ochtend aankomst
+      - label: Gordijnen
+      - label: Killen Roblox
+      - label: Lock altijd
+      - label: Stand 7
+      - label: Alle lampen ongewijzigd Motion watching
+      - label: Volume reset on 5 uur
+      - label: Volume
+      - label: Woonkamer 2 reset
+      - label: Kinderen licht
+  - name: import-Low prio
+    group: import
+    items:
+      - label: https://www.kaldenbach-meubels.nl/products/stalen-bartafelframe-met-voetplaat-voetensteun?variant=45640465056054&country=NL&currency=EUR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid
+      - label: Muziek box
+      - label: Shelly
+      - label: Kattenluik
+      - label: Chrome book
+      - label: USB car splitter
+      - label: Infotainment
+      - label: Dash cam
+      - label: Bomen
+      - label: Testament online
+      - label: Verf beschadiging
+      - label: Thoughtworks
+      - label: meetup
+      - label: Oplader MacBook
+      - label: NS Kortingskaart
+      - label: Horloge
