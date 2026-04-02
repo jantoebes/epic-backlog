@@ -52,13 +52,13 @@ lists:
         description: De rolgordijnen rails laten op bepaalde plekken los. Deze weer vast kitten.
       - label: Plinten werkkamer herstellen
         description: In de werkkamer zijn de plinten beschadigd en sommige ontbreken.
+      - label: Badkamer knieschot openen voor opslag
+        description: De badkamer knieschot openmaken zodat ik er spulletjes in kan stoppen.
       - label: Schommel rubber voorkamer vervangen
         description: De schommel in de voorkamer heeft rubbertjes die loslaten.
       - label: Gaten vullen
       - label: Plafond zolder herstellen
         description: Op zolder moet het plafond hersteld worden.
-      - label: Badkamer knieschot openen voor opslag
-        description: De badkamer knieschot openmaken zodat ik er spulletjes in kan stoppen.
       - label: Reserve wieltjes argenta gordijnrails bestellen
         description: Reserve wieltjes voor de argenta gordijnrails bestellen zodat ik ze kan vervangen als ze kapot zijn.
       - label: Schuur opruimen
